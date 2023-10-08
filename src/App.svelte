@@ -21,7 +21,7 @@
 		fetch("public/data.json")
 			.then((response) => response.json())
 			.then((data) => {
-				const colors = [0xfb5000, 0x1db3e6, 0x82b431, 0xc20100];
+				const colors = [0x006635, 0x5E17EB, 0x0083C2, 0xFF914D];
 				moonquakes = data;
 			})
 			.catch((error) => console.log(error));

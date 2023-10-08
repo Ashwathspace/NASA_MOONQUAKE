@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 	import { createScene, animate } from "./scene";
 
-	let src = 'assets/agastya.png';
+	let src = 'assets/Agastya (1).png';
 	let el;
 	let rotating = true;
 	let cheese = false;

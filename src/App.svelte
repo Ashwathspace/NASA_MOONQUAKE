@@ -4,7 +4,7 @@
 
 	let src = 'assets/logo.svg';
 	let el;
-	let rotating = true;
+	let rotating = false;
 	let cheese = false;
 	$: legend = [
 		{ index: 0, name: "Superficial", color: "#fb5000", display: true, opacity: 1},

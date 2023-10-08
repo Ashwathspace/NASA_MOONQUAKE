@@ -1,6 +1,6 @@
 version: 2
 # Specify your Hasura project name
-project: themoonquakeapp
+project: nasa-moonquake2
 
 # Define your Node.js app service
 services:

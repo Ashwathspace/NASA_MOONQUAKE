@@ -1,0 +1,18 @@
+version: 2
+# Specify your Hasura project name
+project: themoonquakeapp
+
+# Define your Node.js app service
+services:
+  - name: svelte-app
+    # Specify the path to your Node.js project directory
+    source: https://github.com/ConstantinosAr/Moonquake-Map.git
+    # Specify the command to start your Node.js app
+    command: npm start
+    # Specify the port your Node.js app listens to
+    ports:
+      - 8080:8080
+    # Optional environment variables for your Node.js app
+    environment:
+      NODE_ENV: production
+      # Add other environment variables as needed

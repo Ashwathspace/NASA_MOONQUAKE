@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 	import { createScene, animate } from "./scene";
 
-	let src = 'assets/logo.svg';
+	let src = 'assets/logo.jpg';
 	let el;
 	let rotating = true;
 	let cheese = false;

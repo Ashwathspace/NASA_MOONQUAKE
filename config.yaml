@@ -17,11 +17,12 @@ services:
       NODE_ENV: production
       # Add other environment variables as needed
 
-# Define your metadata including an empty tables attribute
-metadata:
-  version: 2
-  # Empty tables attribute
-  tables: []
+    # Define your metadata including an empty tables attribute
+    metadata:
+      version: 2
+      # Empty tables attribute
+      tables: []
+
 
 
       

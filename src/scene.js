@@ -128,8 +128,8 @@ const loadData = (legendDisplay) => {
 
 const startAnimation = () => {
   animationFrame = requestAnimationFrame(startAnimation);
-  moon.rotation.y += 0.000;
-  moon.rotation.x += 0.000;
+  moon.rotation.y += 0.002;
+  moon.rotation.x += 0.0001;
   world.rotation.y += 0.0001;
   world.rotation.x += 0.0005;
   renderer.render(scene, camera);

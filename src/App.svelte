@@ -8,7 +8,7 @@
 	let cheese = false;
 	$: legend = [
 		{ index: 0, name: "Moonquake", color: "#006635", display: true, opacity: 1},
-		{ index: 1, name: "Mapped Craters", color: "#5E17EB", display: true, opacity: 1},
+		{ index: 1, name: "Mapped Craters", color: "#FF0000", display: true, opacity: 1},
 		{ index: 2, name: "Moon Caves", color: "#0083C2", display: true, opacity: 1},
 		{ index: 3, name: "Apollo Landings", color: "#FF914D", display: true, opacity: 1}
 	]
@@ -21,7 +21,7 @@
 		fetch("public/data.json")
 			.then((response) => response.json())
 			.then((data) => {
-				const colors = [0x006635, 0x5E17EB, 0x0083C2, 0xFF914D];
+				const colors = [0x006635, 0xFF0000, 0x0083C2, 0xFF914D];
 				moonquakes = data;
 			})
 			.catch((error) => console.log(error));

@@ -8,7 +8,6 @@ services:
     # Specify the path to your Node.js project directory
     source: https://github.com/ConstantinosAr/Moonquake-Map.git
     # Specify the command to start your Node.js app
-    tables: []
     command: npm start
     # Specify the port your Node.js app listens to
     ports:
@@ -17,5 +16,12 @@ services:
     environment:
       NODE_ENV: production
       # Add other environment variables as needed
+
+# Define your metadata including an empty tables attribute
+metadata:
+  version: 2
+  # Empty tables attribute
+  tables: []
+
 
       

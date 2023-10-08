@@ -1,0 +1,127 @@
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	font-family: Nasa, Arial, Helvetica, sans-serif;
+}
+
+body {
+	color: #333;
+	margin: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.logo {
+	width: 200px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+.animation-btn {
+	position: absolute;
+	top: 26px;
+	right: 20px;
+	padding: 8px 12px;
+	background: transparent;
+	color: white;
+	border: 1px solid white;
+	border-radius: 6px;
+	cursor: pointer;
+	font-size: 18px;
+	font-family: Nasa, Arial, Helvetica, sans-serif;
+	display: inline-flex;
+	align-items: flex-start;
+	gap: 4px;
+}
+.animation-btn:hover {
+	background: linear-gradient(204.09deg, #071945 -64.78%, #071332 97.26%);
+}
+
+.legend {
+	position: absolute;
+	left: 20px;
+	padding: 20px 0;
+	background: transparent;
+	color: white;
+	font-size: 18px;
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+}
+.legend-item {
+	padding: 8px 12px;
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	font-size: 20px;
+	border-radius: 6px;
+}
+.legend-item:hover {
+	background: rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(20px);
+	cursor: pointer;
+}
+.legend-color {
+	width: 16px;
+	height: 16px;
+	border-radius: 2px;
+}
+
+.info {
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	bottom: 40px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-content {
+	background: rgba(255, 255, 255, 0.2);
+	background: transparent;
+	backdrop-filter: blur(4px);
+	color: white;
+	border: 1px solid white;
+	border-radius: 6px;
+	text-align: center;
+	display: inline-grid;
+	grid-template-columns: max-content max-content max-content;
+}
+.info-action {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	cursor: pointer;
+	padding: 8px 12px;
+	border-radius: 6px;
+}
+.info-action:hover {
+	background: linear-gradient(204.09deg, #071945 -64.78%, #071332 97.26%);
+	backdrop-filter: blur(8px);
+	cursor: pointer;
+}
+.info-card {
+	padding: 16px 20px;
+}
+.info-card h3 {
+	margin-top: 0;
+	margin-bottom: 0.75rem;
+}
+.info-card-details {
+	display: grid;
+	font-size: 0.75rem;
+}
+p {
+	margin: 0.4rem;
+}
+p span {
+	font-weight: bold;
+	margin-left: 0.5rem;
+}

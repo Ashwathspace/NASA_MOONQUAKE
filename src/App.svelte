@@ -7,10 +7,10 @@
 	let rotating = true;
 	let cheese = false;
 	$: legend = [
-		{ index: 0, name: "Moonquake", color: "#fb5000", display: true, opacity: 1},
-		{ index: 1, name: "Mapped Craters", color: "#1db3e6", display: true, opacity: 1},
-		{ index: 2, name: "Moon Caves", color: "#82b431", display: true, opacity: 1},
-		{ index: 3, name: "Apollo Landings", color: "#c20100", display: true, opacity: 1}
+		{ index: 0, name: "Moonquake", color: "#000000", display: true, opacity: 1},
+		{ index: 1, name: "Mapped Craters", color: "#5E17EB", display: true, opacity: 1},
+		{ index: 2, name: "Moon Caves", color: "#0083C2", display: true, opacity: 1},
+		{ index: 3, name: "Apollo Landings", color: "#FF914D", display: true, opacity: 1}
 	]
 	$: toDisplay = legend.filter((x) => { return x.display; });
 	$: toDisplayIndexes = toDisplay.map(x => x.index);
